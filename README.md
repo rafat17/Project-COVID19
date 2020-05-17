@@ -1,3 +1,8 @@
+A single page application visualizing COVID19 statistics
+
+You can view the COVID19 statistics of the whole world or of any specific affected country. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

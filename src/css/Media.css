@@ -1,0 +1,461 @@
+/* media 1 */
+@media only screen and (max-width: 1140px) {
+
+    #country-select-heading{
+        top: 1em;
+        font-size: 1.4em;
+    }
+
+    #countries_select{
+        bottom: .35em; 
+        right: 1em; 
+    }
+
+    #countries_select > .MuiInput-root{ font-size: .9em !important; }
+
+    .country-info-container{
+        height: unset;
+        min-height: 37em;
+        grid-template-columns: 1.5fr 1.2fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: .25em;
+    }
+
+    .stat-error{ grid-row-end: 8; }
+    .stat-error div { margin-left: 4.5%; }
+
+  
+    .chart-container, .chart-loader{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .chart-container{ padding-left: 7em; }
+    .chart-loader{ left: 4.25em; }
+
+    .statload-container{ 
+        grid-row-start: 4;
+        grid-row-end: 8; 
+    }
+
+    .stat-loader{ padding-left: 100px; }
+
+    .stat-block:nth-child(odd){
+        grid-column-start:1;
+        grid-column-end: 2;
+        justify-self: end;
+    }
+
+    .stat-block:nth-child(even){
+        grid-column-start:2;
+        grid-column-end: 3;
+        justify-self: start;
+    }
+
+    .chart-container{
+        padding-right: unset;
+        padding-bottom: unset;
+        grid-row-end: 4;
+        margin-bottom: 50px;
+    }
+
+    #timeline-title{ font-size: 1.4em; }
+    #timeline-header > .MuiIcon-root{ 
+        font-size: 1.25em !important;
+        height: 55%  !important;
+        margin-bottom: .8em !important;
+    }
+
+    .timeline-content{ font-size: .98em; }
+    .MuiInputBase-root{ font-size: .88em !important; }
+
+    .graph-container{
+        width: 55em;
+        height: 29em;
+    }
+}
+
+
+/* media 2 */
+@media only screen and (max-width: 939px){
+    .graph-container{
+        width: 48em;
+        height: 26em;
+    }
+}
+
+/* media 3 */
+@media only screen and (max-width: 843px){
+    .header-start div {
+        margin-left: .35em;
+        height: 100%;
+        width: 3em;
+        padding: 0 .2em 0 .6em;
+    }
+
+    #header-title{ font-size: 1.28em; }
+    #header-title > .MuiIcon-root{
+        width: 1.68em !important;
+        height: 1.68em !important;
+    }
+
+    .country-info-container{
+        width: 95%;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: unset;
+    }
+
+    .statload-container{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .stat-error, .statload-container { grid-row-end: 10; }
+    .stat-error div { margin-left: unset; }
+
+    .stat-loader{ padding-left: unset; }
+
+    .chart-container, .chart-loader, .stat-block:nth-child(odd), .stat-block:nth-child(even){
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .chart-loader{ left: 1.5em; }
+
+    .chart-container{ padding-left: unset; }
+
+    .stat-block:nth-child(odd), .stat-block:nth-child(even){
+        margin-left: unset;
+        margin-right: 25px; 
+        justify-self: center;
+        align-self: center; 
+    }
+
+    #timeline-title{ 
+        font-size: 1.25em;
+        margin-top: .2em; 
+    }
+
+    #timeline-header > .MuiIcon-root{ 
+        font-size: 1.1em !important;
+        height: 48%  !important;
+        margin-bottom: 1em !important;
+    }
+
+    .timeline-content{ font-size: .94em; }
+    .time-select-content > .MuiInputBase-root{
+        width: 8.75em !important;  
+        font-size: .85em !important; 
+    }
+
+    .graph-container{
+        width: 42em;
+        height: 24em;
+    }
+
+    .graph-error{margin-right: unset; }
+}
+
+/* media 4 */
+@media only screen and (max-width: 714px){
+
+    #header-title{
+        width: 10em;
+        font-size: 1.2em;
+        padding: 0 .2em 0 0em; 
+    }
+    
+    .header-start div{
+        margin-left: 0; 
+        width: 2.5em; 
+    }
+
+    .header-source{ 
+        font-size: unset;
+        right: 3.25em;     
+    }
+
+    #country-select-heading{
+        top: 1.3em;
+        font-size: 1.25em;
+    }
+
+    #countries_select{
+        font-size: 1em;
+        width: 15em;
+        bottom: .35em; 
+        right: -.75em; 
+    }
+
+    #countries_select > .MuiInput-root{
+        font-size: .8em !important; 
+    }
+
+    .country-info-container{ width: 92%; }
+
+    .chart-container{ margin: 20px 0 20px 0; }
+
+    #timeline-title{ 
+        font-size: 1.15em;
+        margin-top: .1em; 
+    }
+
+    #timeline-header > .MuiIcon-root{ 
+        font-size: .95em !important;
+        height: 42%  !important;
+        margin-bottom: 1.6em !important;
+    }
+
+    .time-select-container { padding-right: unset; }
+    #timeline-header{ margin-top: 4em; }
+    .timeline-content{
+        padding: .5em; 
+        font-size: .8em; 
+    }
+
+    .graph-container{
+        width: 36em;
+        height: 19em;
+    }
+}
+
+/* media 5 */
+@media only screen and (max-width: 589px){
+
+    .header-start div{ width: 2.25em; }
+    #header-title{ font-size: 1.02em; }
+    .header-source { font-size: .9em; }
+    .header-source a { padding: .2em; }
+
+    #country-select-heading {
+        top: 1.7em;
+        font-size: 1.05em;
+    }
+
+    #countries_select{
+        font-size: .95em; 
+        right: -2em;  
+    }
+
+    .time-select-content { margin-right: 8px; }
+    #timeline-title{ font-size: 1em; }
+    .country-info-container{  grid-template-columns: 1fr;  }
+
+    .stat-loader{ padding-right: 40px; }
+
+    .stat-block:nth-child(odd), .stat-block:nth-child(even){
+        justify-self: center; 
+        margin-right: 50px;
+    }
+
+    .stat-block{ width: 17em; }
+    .chart-container {
+        margin: 0 60px 0 20px;
+        grid-column-end: unset; 
+    }
+
+    #timeline-header > .MuiIcon-root {
+        font-size: .8em !important;
+        height: 37% !important;
+        margin-bottom: 2.2em !important;
+    }
+
+    #countries_select > .MuiInput-root{ font-size: .75em !important; }
+
+    .time-select-content > .MuiInputBase-root {
+        width: 8.5em !important;
+        font-size: .8em !important;
+    }
+    
+    .graph-container{
+        width: 30em;
+        height: 15em;
+    }
+}
+
+/* media 6 */
+@media only screen and (max-width: 539px){
+
+    #country-heading > div > span{ font-size: 1.3em; }
+    .stat-block:nth-child(odd), .stat-block:nth-child(even){ margin-left: unset; }
+
+    .stat-error, .graph-error{ font-size: 2em; }
+}
+
+/* media 7 */
+@media only screen and (max-width: 494px){
+    .header-source { font-size: .75em; }
+    #timeline-title { font-size: .9em; }
+
+    #timeline-header > .MuiIcon-root {
+        font-size: .75em !important;
+        height: 33% !important;
+        margin-bottom: 2.6em !important;
+    }
+
+    .chart-container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .time-select-content > .MuiInputBase-root {
+        width: 7.5em !important;
+        font-size: .8em !important;
+    }
+
+    .graph-container{
+        width: 24em;
+        height: 13em;
+    }
+
+    .stat-error, .graph-error{ font-size: 1.8em; }
+
+    
+}
+
+
+/* media 8 */
+@media only screen and (max-width: 460px){
+    #header-title > .MuiIcon-root {
+        margin-top: 0.4em;
+        width: 1.4em !important;
+        height: 1.4em !important;
+        margin-left: 0.3em;
+    }
+
+    .header-start div { width: 1.95em; }
+    
+    #header-title {
+        font-size: .9em;
+        width: 9em;
+    }
+
+    #header-title span{ font-size: .8em; }
+
+    #header-title > .MuiIcon-root {
+        width: 1.5em !important;
+        height: 1.5em !important;
+    }
+
+    #country-select-heading {
+        top: 2.2em;
+        font-size: .93em;
+    }
+
+    #countries_select { font-size: .85em; }
+
+    .timeline-content{ position: unset; }
+    #timeline-header > .MuiIcon-root{ display: none; }
+    #timeline-header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .time-select-content > .MuiInputBase-root {
+        width: 10em !important;
+        font-size: .8em !important;
+    }
+
+    .chart-container{ margin: 0 40px 0 0;}
+
+    .stat-error, .graph-error{ font-size: 1.7em; }
+
+}
+
+
+/* media 9 */
+@media only screen and (max-width: 419px){
+    .header-start div { width: 1.8em; }
+
+    #country-selection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 7em;
+        margin-bottom: 30px;
+    }
+
+    #country-heading{
+        position: relative;
+        top: 2%;
+        right: 3%;
+    }
+
+    #country-select-heading, #countries_select{ position: unset; }
+    
+    #country-select-heading{ 
+        font-size: 1.15em;
+        padding: 1em;
+        margin-left: 27px; 
+    }
+
+    .stat-block{
+        width: 15em;
+        height: 6.85em; 
+    }
+
+    #countries_select{ width: 10em; }
+
+    .chart-container{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+/* media 10 */
+@media only screen and (max-width: 379px){
+    .header-start div { 
+        padding: 0 .2em 0 .1em;
+        right: 1.75em; 
+    }
+
+    .chart-container {
+        width: 290px;
+        height: 290px; 
+        margin: 0 50px 0 0; 
+    }
+
+    .stat-block:nth-child(odd), .stat-block:nth-child(even) { margin-right: 60px; }
+
+    .graph-container {
+        width: 19em;
+        height: 11em;
+    }
+
+    .stat-error, .graph-error{ font-size: 1.4em; }
+}
+
+/* media 11 */
+@media only screen and (max-width: 359px){
+    #header-title {
+        font-size: .8em;
+        width: 8.1em;
+    }
+
+    #header-title span { font-size: .77em; }
+
+    #country-select-heading{ margin-left: 10px; }
+    .stat-block:nth-child(odd), .stat-block:nth-child(even) { margin-right: 65px; }
+    .stat-error{ margin-right: 7%; }
+
+    .timeline-content {
+        padding: .5em;
+        font-size: .7em;
+    }
+
+    .chart-container {
+        width: 280px;
+        height: 280px;
+    }
+
+    .chart-loader{ left: .9em; }
+
+}
+
+
+
+
+

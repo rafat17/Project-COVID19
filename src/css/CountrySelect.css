@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Oswald-Regular;
+    src: url('.././fonts/Oswald-Regular.ttf');
+}
+
+
+#country-selection{ 
+    position: relative;
+    width: 100%;
+    height: 3.75em;
+    font-family: Oswald-Regular;
+    margin-bottom: 40px; 
+  }
+  
+  #country-select-heading{
+    position: absolute;
+    top: 0.7em;
+    left: 1.8em;
+    font-size: 1.7em;
+    letter-spacing: .4px;
+  }
+  
+  #countries_select{
+    position: absolute;
+    height: 2.1em;
+    font-size: 1.05em;
+    font-weight: bold;
+    font-style: italic;
+    right: 3em;
+    bottom: .5em;
+    width: 18em;
+    outline: none;
+  }

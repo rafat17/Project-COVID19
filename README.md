@@ -12,5 +12,11 @@ Basic features include -
 - Data Visual type selection
 - Historical Data view (upto 30 days)
 
+## Installation and Usage
+ - Download or clone the git repository
+ - Install any of the two package managers
+   - NPM (from Node.js)
+   - Yarn 
+ 
 
 

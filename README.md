@@ -8,9 +8,9 @@ Basic features include -
 - Landing page
 - Country Selection
 - Total cases count on 8 different categories
-- Pie Chart Representation
-- Data Visual type selection
-- Historical Data view (upto 30 days)
+- Pie Chart representation
+- Data Visual Type selection
+- Historical Data View (upto 30 days)
 
 ## Installation and Usage
  - Download or clone the git repository

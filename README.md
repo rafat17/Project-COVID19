@@ -16,7 +16,7 @@ Basic features include -
  - Download or clone the git repository
  - Install any of the two package managers
    - ### NPM (from Node.js)
-   - ### Yarn 
+   - ## Yarn 
  
 
 

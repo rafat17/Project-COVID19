@@ -1,6 +1,6 @@
 # COVID-19 Statistics Tracker with React
 
-A Single Page Application that tracks the statistics of COVID-19 worldwide
+A Single Page Application (SPA) that tracks the statistics of COVID-19 worldwide
 
 ## Features
 Basic features include -
@@ -18,6 +18,18 @@ Basic features include -
  - Use terminal (cmd.exe) to navigate to the directory
  - run 'npm install' (for npm) OR 'yarn install' (for yarn)
  - Then run 'npm start' (for npm) OR 'yarn start' (for yarn)
+ 
+ ## Open Source API Usage
+ - NovelCOVID API. Documentation available [here](https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest).
+ 
+ ## Additional Third Party packages Usage
+ - [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2) - Built-in graphical representation components
+ - [Material-UI](https://material-ui.com/) - The default UI components slightly customised and used
+ - [React-loading](https://www.npmjs.com/package/react-loading) - Lightweight package with loading components for use
+ - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lihgtweight package with emoji icons available
+ 
+ 
+ 
  
  
 

@@ -28,7 +28,7 @@ Basic features include -
  - [React-loading](https://www.npmjs.com/package/react-loading) - Lightweight package with loading components for use
  - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lightweight package with emoji icons available
  
- ##Screenshots
+ ## Screenshots
  1. WorldWide Case Data Overview
  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
  

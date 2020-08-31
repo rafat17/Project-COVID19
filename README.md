@@ -15,7 +15,7 @@ Basic features include -
 ## Installation and Usage
  - Download or clone the git repository
  - Install any of the two package managers (npm/yarn)
- - using terminal (cmd.exe) move to the directory
+ - Use terminal (cmd.exe) to navigate to the directory
  - run 'npm install' (for npm) OR 'yarn install' (for yarn)
  - Then run 'npm start' (for npm) OR 'yarn start' (for yarn)
  

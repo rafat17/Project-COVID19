@@ -26,7 +26,7 @@ Basic features include -
  - [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2) - Built-in graphical representation components
  - [Material-UI](https://material-ui.com/) - The default UI components slightly customised and used
  - [React-loading](https://www.npmjs.com/package/react-loading) - Lightweight package with loading components for use
- - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lihgtweight package with emoji icons available
+ - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lightweight package with emoji icons available
  
  
  

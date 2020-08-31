@@ -42,7 +42,7 @@ Basic features include -
   <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Horizontal_Graph.png" width="90%">
   
  5. Timeline Data View (Line Graph)
-  <img title="Landing" style="border: 1px solid black;" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Line_Graph.png" width="90%">
+  <img title="Landing" border=1px src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Line_Graph.png" width="90%">
  
  
  

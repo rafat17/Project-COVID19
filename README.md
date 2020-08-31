@@ -30,7 +30,7 @@ Basic features include -
  
  ##Screenshots
  1. WorldWide Case Data Overview
- <img title="Landing" src="https://github.com/rahulhaque/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
+ <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
  
  
  

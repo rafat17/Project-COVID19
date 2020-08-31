@@ -23,14 +23,19 @@ Basic features include -
  - NovelCOVID API. Documentation available [here](https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest).
  
  ## Additional Third Party packages Usage
- - [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2) - Built-in graphical representation components
- - [Material-UI](https://material-ui.com/) - The default UI components slightly customised and used
- - [React-loading](https://www.npmjs.com/package/react-loading) - Lightweight package with loading components for use
- - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lightweight package with emoji icons available
+ - [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2) - Used built-in graphical representation components from here
+ - [Material-UI](https://material-ui.com/) - Used the default UI components from here but with moderate customization applied to them
+ - [React-loading](https://www.npmjs.com/package/react-loading) - Lightweight package with loading components that came in handy
+ - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lightweight package with emoji icons readily available to use. 
  
  ## Screenshots
- 1.  WorldWide Case Data Overview
- <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
+ 1. Global Case Data Overview
+ <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/World.png" width="100%">
+ 2. CountryWise Case Data Overview (e.g Bangladesh)
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
+ 3. Timeline Data View Type (Bar Graph)
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Vertical_Graph.png" width="100%">
+  
  
  
  

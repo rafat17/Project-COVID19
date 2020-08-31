@@ -30,19 +30,19 @@ Basic features include -
  
  ## Screenshots
  1. Global Case Data Overview
- <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/World.png" width="90%">
+ <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/World.png" width="100%">
  
  2. CountryWise Case Data Overview (e.g Bangladesh)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="90%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
   
  3. Timeline Data View (Bar Graph)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Vertical_Graph.png" width="90%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Vertical_Graph.png" width="100%">
   
  4. Timeline Data View (Horizontal Graph)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Horizontal_Graph.png" width="90%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Horizontal_Graph.png" width="100%">
   
  5. Timeline Data View (Line Graph)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Line_Graph.png" width="90%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Line_Graph.png" width="100%">
  
  
  

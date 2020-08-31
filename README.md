@@ -45,6 +45,9 @@ Basic features include -
  5. Timeline Data View (Line Graph)
   <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Line_Graph.png" width="100%">
  
+ ## Demo/Preview Link
+  https://zealous-pike-92c37e.netlify.app/
+ 
  
  
  

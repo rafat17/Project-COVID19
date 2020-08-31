@@ -30,13 +30,13 @@ Basic features include -
  
  ## Screenshots
  1. Global Case Data Overview
- <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/World.png" width="100%">
+ <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/World.png" width="80%">
  
  2. CountryWise Case Data Overview (e.g Bangladesh)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="80%">
   
  3. Timeline Data View Type (Bar Graph)
-  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Vertical_Graph.png" width="100%">
+  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Vertical_Graph.png" width="80%">
   
  
  

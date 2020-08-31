@@ -29,7 +29,7 @@ Basic features include -
  - [React-Emoji-Render](https://www.npmjs.com/package/react-emoji-render) - Lightweight package with emoji icons available
  
  ## Screenshots
- 1. WorldWide Case Data Overview
+ 1.  WorldWide Case Data Overview
  <img title="Landing" src="https://github.com/rafat17/Project-COVID19/blob/master/screenshots/Country_Selection.png" width="100%">
  
  

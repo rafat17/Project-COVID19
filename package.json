@@ -11,7 +11,7 @@
     "antd": "^4.2.3",
     "chart.js": "^2.9.3",
     "d3": "^5.16.0",
-    "novelcovid": "^1.2.7",
+    "node-fetch": "2.6.0",
     "onsenui": "^2.10.10",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
@@ -27,6 +27,10 @@
     "react-windowed-select": "^2.0.2",
     "social-media-icons-react": "^1.0.10",
     "styled-components": "^5.1.0"
+  },
+
+  "engines": {
+    "node": ">=12.0.0 <13.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

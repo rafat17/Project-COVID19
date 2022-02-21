@@ -87,9 +87,9 @@ function App() {
 
     //get all countries inside the selection
     getCountryNames()
-      .then(res => {
-        console.log(res)
-        setCountryList(['World', ...res])
+      .then(response => {
+        const countriesList = response.map(countryData => countryData.country)
+        setCountryList(['World', ...countriesList])
       })
       .catch(err => {
         console.log(err)

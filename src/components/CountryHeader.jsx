@@ -14,7 +14,7 @@ export const CountryHeader = (props) => {
   return (
     <div id="country-heading">
       {loading ? (
-        <ReactLoading type="bars" color="black" height={50} width={50} />
+        <ReactLoading className="country-loader" type="bars" color="black" height={50} width={50} />
       ) : (
         countryNameHeader
       )}

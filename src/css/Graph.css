@@ -6,7 +6,6 @@
     margin-top: 6em;
   }
   
-  
   .timeline-content:first-child{ font-size: 1.35em; }
   
   .timeline-content{
@@ -31,6 +30,9 @@
   
   .time-select-content-header{ letter-spacing: .5px; }
   .time-select-content{ margin-right: 15px; }
+  .time-select-content__select-box{
+    min-width: 160px;
+  }
   
   #timeline-select{ right: 0; }
   

@@ -31,8 +31,6 @@ import {
   getLastWeekDataByCountry,
 } from "./data/api_functions";
 
-import defaultCountryOption from "./constants/defaultObjects";
-
 function App() {
   const [countryList, setCountryList] = useState([]);
   const [countryTitle, setCountryTitle] = useState(null);
@@ -46,7 +44,6 @@ function App() {
   const [daysSelect, setDaysSelect] = useState("14 days");
   const [viewsSelect, setViewsSelect] = useState("Vertical Bar");
   const [noHistory, setNoHistory] = useState(false);
-  const [countrySelected, setCountrySelected] = useState(defaultCountryOption);
 
   const [selectError, setSelectError] = useState(false);
   const [statError, setStatError] = useState(false);
@@ -73,7 +70,7 @@ function App() {
 
   useEffect(() => {
     loadCountryNamesList();
-  }, [countryList.length]);
+  }, []);
 
   //get the selected country data
   useEffect(() => {
@@ -158,7 +155,6 @@ function App() {
   }, [countryName, daysSelect]);
 
   const onSelectChange = (selectedOption) => {
-    setCountrySelected(selectedOption);
     setCountryName(selectedOption?.value);
   };
 
@@ -166,8 +162,7 @@ function App() {
     <>
       <StartHeader />
       <SelectCountrySection
-        loadCountryNamesList={loadCountryNamesList}
-        countrySelected={countrySelected}
+        countryList={countryList}
         onSelectChange={onSelectChange}
       />
       <CovidStatsByCountrySection

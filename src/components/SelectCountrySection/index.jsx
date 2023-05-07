@@ -1,22 +1,22 @@
 import React from "react";
-import AsyncSelect from "react-select/async";
-import ReactSelectCustomComponents from "../../helpers/ReactSelectCustomComponents";
+import Select from "react-select";
 
-const SelectCountrySection = (props) => {
-  const { loadCountryNamesList, countrySelected, onSelectChange } = props;
+const SelectCountrySection = ({ countryList, onSelectChange }) => {
+  const countryOptions =
+    countryList &&
+    countryList.map((countryItem) => ({
+      label: countryItem,
+      value: countryItem,
+    }));
 
   return (
     <div id="country-selection">
       <div id="country-select-heading">View Global / Local Information</div>
       <div id="countries_select">
-        <AsyncSelect
-          cacheOptions={true}
-          defaultOptions={true}
-          isSearchable={false}
-          loadOptions={loadCountryNamesList}
-          value={countrySelected}
+        <Select
           onChange={onSelectChange}
-          components={ReactSelectCustomComponents}
+          options={countryOptions || []}
+          isDisabled={countryOptions.length === 0}
         />
       </div>
     </div>
